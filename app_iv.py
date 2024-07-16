@@ -3,6 +3,9 @@ import streamlit as st
 def page_home():
     st.title('Preço do Petróleo Brent📊')
     st.write('Fomos selecionados para resolver um problema de um grande cliente:  Analisar a fundo o preço do Petróleo!')
+
+    st.markdown("---")
+    
     st.title('O que é Petróleo Brent?')
     texto1 = """O Petróleo Brent é uma das principais referências globais para o preço do petróleo bruto.
     Originário do Mar do Norte, entre o Reino Unido e a Noruega, ele é classificado como um petróleo leve e doce, devido à sua baixa densidade e baixo teor de enxofre, o que facilita seu refino em produtos como gasolina e diesel.
