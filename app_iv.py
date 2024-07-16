@@ -28,7 +28,7 @@ def page_sobre():
 # Configuração da barra lateral para navegação entre as páginas
 st.sidebar.title('Menu')
 page = st.sidebar.radio('Selecione uma página:',
-                        ['Página Inicial', 'Sobre', 'Dados', 'Configurações'])
+                        ['Página Inicial', 'Analises', 'Previsões', 'Sobre'])
 
 # Mostrar a página correspondente com base na seleção na barra lateral
 if page == 'Página Inicial':
