@@ -1,7 +1,7 @@
 import streamlit as st
 
 def page_home():
-    st.title('Página Inicial')
+    st.title('TESTE')
     st.write('Bem-vindo à Página Inicial!')
 
 def page_about():
