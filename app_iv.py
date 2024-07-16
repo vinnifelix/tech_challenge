@@ -12,6 +12,7 @@ def page_home():
     Em resumo, o Petróleo Brent é uma referência essencial no mercado de energia, impactando decisões de empresas, governos e investidores em todo o mundo."""
     st.write(texto1)
     st.markdown("---")
+    
 def page_analises():
     st.title('Analises')
     st.write('Esta é a página Sobre. Aqui você pode descrever informações sobre o aplicativo.')
@@ -32,9 +33,9 @@ page = st.sidebar.radio('Selecione uma página:',
 # Mostrar a página correspondente com base na seleção na barra lateral
 if page == 'Página Inicial':
     page_home()
-elif page == 'Sobre':
+elif page == 'Analises':
     page_about()
-elif page == 'Dados':
+elif page == 'Previsões':
     page_data()
-elif page == 'Configurações':
+elif page == 'Sobre':
     page_settings()
