@@ -6,7 +6,7 @@ def page_home():
     st.title('O que é Petróleo Brent?')
     st.write('O Petróleo Brent é uma das principais referências globais para o preço do petróleo bruto. 
     Originário do Mar do Norte, entre o Reino Unido e a Noruega, ele é classificado como um petróleo leve e doce, devido à sua baixa densidade e baixo teor de enxofre, o que facilita seu refino em produtos como gasolina e diesel.
-    Em resumo, o Petróleo Brent é uma referência essencial no mercado de energia, impactando decisões de empresas, governos e investidores em todo o mundo.'
+    Em resumo, o Petróleo Brent é uma referência essencial no mercado de energia, impactando decisões de empresas, governos e investidores em todo o mundo.')
 
 def page_analises():
     st.title('Analises')
