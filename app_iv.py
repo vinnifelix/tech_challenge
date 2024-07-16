@@ -8,7 +8,7 @@ def page_home():
     Originário do Mar do Norte, entre o Reino Unido e a Noruega, ele é classificado como um petróleo leve e doce, devido à sua baixa densidade e baixo teor de enxofre, o que facilita seu refino em produtos como gasolina e diesel.
     Em resumo, o Petróleo Brent é uma referência essencial no mercado de energia, impactando decisões de empresas, governos e investidores em todo o mundo."""
     st.write(texto1)
-
+    st.markdown("---")
 def page_analises():
     st.title('Analises')
     st.write('Esta é a página Sobre. Aqui você pode descrever informações sobre o aplicativo.')
