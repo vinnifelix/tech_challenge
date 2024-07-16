@@ -34,8 +34,8 @@ page = st.sidebar.radio('Selecione uma página:',
 if page == 'Página Inicial':
     page_home()
 elif page == 'Analises':
-    page_about()
+    page_analises()
 elif page == 'Previsões':
-    page_data()
+    page_previsoes()
 elif page == 'Sobre':
-    page_settings()
+    page_sobre()
